@@ -1,0 +1,12 @@
+info:
+  description: Config Service file configuration
+
+spring:
+  application:
+    name: config-service
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gnovoab/ecommerce-config-service-parameters
